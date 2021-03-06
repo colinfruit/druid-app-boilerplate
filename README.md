@@ -16,7 +16,7 @@ cross build --target=aarch64-unknown-linux-gnu --release
 ```
 
 ## Install
-Copy to project to the phone:
+Send the project to the phone:
 
 ```bash
 scp -r path/to/project {phone-username}@{phone-ip}:~/druid-app-boilerplate

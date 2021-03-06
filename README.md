@@ -7,14 +7,16 @@ Install `cross`:
 ```bash
 cargo install cross
 ```
+Install `docker`:
+https://docs.docker.com/engine/install/
 
-Build the project using cross.
+Build the project using cross:
 ```bash
 cross build --target=aarch64-unknown-linux-gnu --release
 ```
 
 ## Install
-Copy to project to the phone.
+Copy to project to the phone:
 
 ```bash
 scp -r path/to/project {phone-username}@{phone-ip}:~/druid-app-boilerplate

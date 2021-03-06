@@ -1,6 +1,6 @@
 use druid::widget::prelude::*;
-use druid::widget::{Flex, Label, CrossAxisAlignment, MainAxisAlignment};
-use druid::{AppLauncher, WindowDesc, Size};
+use druid::widget::{CrossAxisAlignment, Flex, Label, MainAxisAlignment};
+use druid::{AppLauncher, Size, WindowDesc};
 
 pub fn main() {
     // describe the main window
@@ -19,10 +19,9 @@ pub fn main() {
 }
 
 fn build_root_widget() -> impl Widget<()> {
-    // arrange the two widgets vertically, with some padding
     Flex::column()
         .cross_axis_alignment(CrossAxisAlignment::Center)
         .main_axis_alignment(MainAxisAlignment::Center)
         .must_fill_main_axis(true)
-        .with_child(Label::new("Hello PinePhone!"))
+        .with_child(Label::new("Hello Pinephone!"))
 }

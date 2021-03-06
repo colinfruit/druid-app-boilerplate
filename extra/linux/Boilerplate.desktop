@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+TryExec=boilerplate
+Exec=boilerplate
+Icon=Boilerplate
+Terminal=false
+Categories=System;
+
+Name=Boilerplate
+GenericName=Application
+Comment=Druid boilerplate for Librem 5 and Pinephone app development.
+StartupWMClass=Boilerplate
+Actions=New;

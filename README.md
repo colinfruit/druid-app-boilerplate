@@ -1,6 +1,6 @@
 # druid-app-boilerplate
 
-Druid boilerplate for Librem 5 and Pinephone app development.
+Druid boilerplate for Pinephone app development.
 ## Build
 
 Install `cross`:
